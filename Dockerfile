@@ -41,7 +41,4 @@ ENV PHP_PM_MIN_SPARE_SERVERS 2
 ENV PHP_PM_MAX_SPARE_SERVERS 6
 ENV APP_MAGE_MODE developer
 
-
 WORKDIR /srv/www
-
-CMD ["/usr/local/bin/start"]
